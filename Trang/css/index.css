@@ -1,0 +1,342 @@
+.banner{
+	background: url('../img/home1.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	min-height: 500px;
+	height: 100%;
+	display: inline-block;
+	border: none;
+}
+
+
+.typi{
+	font-size: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+.photograhper{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+}
+
+
+.narbar-color{
+	background: rgba(194,195,183,0.7);
+	border-radius: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100px!important;
+	
+}
+
+.nav-form{
+	margin: 0px;
+}
+
+
+.nav-colap{
+	height: 100px!important; 
+	padding-right: 220px; 
+	padding-left: 170px;
+}
+
+.btn-nav{
+	background-color: rgba(194,195,183,0);
+	border: none;
+	margin: 0px;
+	color: #252525;
+	padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 18px;
+	height: 93px;
+}
+
+
+.btn-nav:hover{
+	color: #fff;
+	border-bottom: 4px solid #54bec4; 
+}
+
+.btn-home{
+	background-color: rgba(194,195,183,0);
+	border: none;
+	margin: 0px;
+	border-bottom: 4px solid #54bec4; 
+	color: #fff;
+	padding: 0px 25px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 18px;
+	height: 93px;
+
+}
+
+.btn-active{
+	background-color: #54bec4;
+    border: none;
+    margin: 0px;
+    padding: 0px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 28px;
+	height: 98px;
+	color: #fff;
+}
+
+.paragraph{
+	padding-right: 210px;
+}
+
+.paragraph1{
+	font-size: 28px;
+	text-align: justify;
+}
+
+.paragraph2{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.paragraph3{
+	font-size: 14px;
+	border-left: 2px solid #54bec4;
+	margin-left: 10px;
+}
+
+.contact{
+	background: #252525;
+	color: #fff;
+	text-align: center;
+}
+
+.contact-content{
+	text-align: justify;
+	display: inline-block;
+	margin: 20px 0px 20px 300px;
+}
+
+.icon{
+	font-size: 50px;
+	font-weight: 500;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.blur-face{
+	background-color: rgba(101,101,101,0.7);
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio{
+	background-color: #252525;
+}
+
+.portfolio1{
+	font-size: 34px;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.portfolio-content{
+
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.portfolio-pic{
+	width: 100%;
+	min-height: 300px;
+}
+
+.viewmore{
+	height: 165px;
+}
+
+.viewmore1{
+	
+	background-color: white;
+	color: #41b6bd;
+	border: 2px solid #41b6bd;
+	font-size: 24px;
+	font-family: Segoe UI;
+	font-style:  Bold;
+	padding: 15px 60px;
+}
+
+.footer{
+	display: inline-block;
+	width: 100%;
+
+}	
+
+
+.footer .contactMe{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20,20,20,0.7);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+.row1{
+	margin-top: 10%;
+}
+
+.row2{
+	margin-top: 30%;
+}
+
+.fbk {
+	padding-right: 20px;
+}
+
+
+.picMap{
+	width: 100%;
+	height: auto;
+}
+
+.input{
+	margin: 8px 0px;
+	padding: 10px 6px;
+	width: 100%;
+}
+
+.send{
+	width: 47%;
+	padding: 10px 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 10px;  
+
+	
+}
+
+.viewMap{
+	background-color: #54bec4;
+	width: 47%;
+	padding: 10px 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 10px;  
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+
+@media only screen and (min-width: 100px) and (max-width: 479px){
+	.banner{
+		min-height: 500px;
+	}
+	.nav-colap{
+		padding-right: 10px;
+		padding-left: 20px;
+		background-color: rgba(194,195,183,1);
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	.banner{
+		min-height: 350px;
+	}
+	.nav-colap{
+		padding-right: 30px;
+		padding-left: 30px;
+		background-color: rgba(194,195,183,1);
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 959px){
+	.banner{
+		min-height: 600px;
+	}
+	.nav-colap{
+		padding-right: 20px;
+		padding-left: 30px;
+	}
+	.btn-nav{
+		padding: 0px 10px;
+	}
+	.btn-home{
+		padding: 0px 10px;
+	}
+	.btn-active{
+		padding: 0px 15px;
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media only screen and (min-width: 960px) and (max-width: 1240px){
+	.banner{
+		min-height: 600px;
+	}
+
+	.nav-colap{
+		padding-right: 40px;
+		padding-left: 80px;
+	}
+	.paragraph{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.contact-content{
+		margin: 20px;
+	}
+	.portfolio-pic{
+		width: 100%;
+		min-height: 200px;
+	}
+}
+@media only screen and (min-width: 1241px){
+	.banner{
+		min-height: 670px;
+	}
+}
+
+

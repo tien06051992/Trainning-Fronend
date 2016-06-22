@@ -1,0 +1,22 @@
+.fontBold{
+	font-family: Segoe UI;
+	font-style: bold;
+}
+
+.fontRegular{
+	font-family: Segoe UI;
+	font-style: normal;
+}
+
+.generalColor{
+	color: #54bec4;
+}
+
+.generalBgColor{
+	background-color: #54bec4;
+}
+
+.container{
+	width: 1174px;
+	max-width: 100%;
+}
