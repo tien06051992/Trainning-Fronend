@@ -26,20 +26,7 @@
         <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-        <script type="text/javascript" src="wow.min.js"></script>
-        <script type="text/javascript">
-          hoverPic(i){
-              
-              document.getElementById(i).style.visibility = 'visible';
-              document.getElementById(i).style.visibility = 'visible';
-            }
-
-            notHoverPic(i){
-             
-              document.getElementById(i).style.visibility = 'hidden';
-              document.getElementById(i).style.visibility = 'hidden';
-            }
-        </script>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -137,14 +124,69 @@
       </div>
     <!-- end contact -->
 
-   <!--  <div class="timeLine">
+
+     <!--  Time Line -->
+    <div class="timeLine">
       <h3 class="edu"> Education</h3>
-      <div class="wow bounceIn  data-wow-duration="1s" data-wow-delay="1s"">
-        <img src="img/01-03.jpg" class="center-block">
+      <div style="position: relative;" >
+        <img src="img/line.jpg" class="line" >
+        <img src="img/line1.png" class="line1">
+        <div style="position: absolute;" class=" wow year year1 animated bounceIn in">
+          <p style="margin-top: 10px;">1995</p>
+          <p>-</p>
+          <p>1997</p>
+        </div>
+
+        <div class="year-content year-content1 wow animated bounceInLeft in" style="position: absolute;">
+          <h1 class="fontBold">Investigationes demonst</h1>
+          <h2 class="fontRegular">Est usus legentis</h2>
+          <h3 class="fontRegular">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.</h3>
+        </div>
+
+        
+        <div style="position: absolute;" class=" wow year year2 animated bounceIn in">
+          <p style="margin-top: 10px;">1998</p>
+          <p>-</p>
+          <p>2005</p>
+        </div>
+
+        <div class="year-content year-content2 wow animated bounceInRight in" style="position: absolute;">
+          <h1 class="fontBold">Investigationes demonst</h1>
+          <h2 class="fontRegular">Est usus legentis</h2>
+          <h3 class="fontRegular">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.</h3>
+        </div>
+
+
+        <div style="position: absolute;" class=" wow year year3 animated bounceIn in">
+          <p style="margin-top: 10px;">1995</p>
+          <p>-</p>
+          <p>1997</p>
+        </div>
+
+        <div class="year-content year-content3 wow animated bounceInLeft in" style="position: absolute;">
+          <h1 class="fontBold">Investigationes demonst</h1>
+          <h2 class="fontRegular">Est usus legentis</h2>
+          <h3 class="fontRegular">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.</h3>
+        </div>
+
+
+        <div style="position: absolute;" class=" wow year year4 animated bounceIn in">
+          <p style="margin-top: 10px;">1995</p>
+          <p>-</p>
+          <p>1997</p>
+        </div>
+
+        <div class="year-content year-content4 wow animated bounceInRight in" style="position: absolute;">
+          <h1 class="fontBold">Investigationes demonst</h1>
+          <h2 class="fontRegular">Est usus legentis</h2>
+          <h3 class="fontRegular">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam.</h3>
+        </div>
+        
+
       </div>
     </div>
- -->
-    
+
+    <!--  end Time Line -->
 
 
     <div style="position: relative;">
@@ -159,58 +201,62 @@
       <div class="portfolio" >
         <h3 class="portfolio1 fontBold">PORTFOLIO</h3>
       </div>
-    
-      <div class="row" style="margin-right: 0px;">
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 portfolio-content " style="position: relative;"  >
-          <img src="img/4.jpg" class="portfolio-pic"" id="4" >
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%); visibility: hidden; "  id="img4" onmouseover="hoverPic('img4');" onmouseout="notHoverPic('img4');">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%;visibility: hidden;"  id="div4"  onmouseover="hoverPic('div4');" onmouseout="notHoverPic('div4');">
+
+
+
+      <div class="grid">
+        <div class="grid-item item" >
+          <div class="item-hover">
+            <img src="img/zoom.png">
           </div>
+          <img src="img/4.jpg" class="portfolio-pic2" >
+          
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/5.jpg" class=" portfolio-pic">
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/6.jpg" class="portfolio-pic2">
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/7.jpg" class="portfolio-pic">
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/8.jpg" class="portfolio-pic">
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/9.jpg" class="portfolio-pic2">
+        </div>
+        <div class="grid-item item">
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/10.jpg" class="portfolio-pic">
+        </div>
+        <div class="grid-item item"> 
+          <div class="item-hover">
+            <img src="img/zoom.png">
+          </div>
+          <img src="img/11.jpg" class="portfolio-pic2">
+        </div>
+      </div>
 
-        </div>
 
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 portfolio-content" style="position: relative;" >
-          <img src="img/5.jpg" class="portfolio-pic" onmouseover="hoverPic(5)" id="5">
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 portfolio-content" style="position: relative;">
-          <img src="img/6.jpg" class="portfolio-pic" onmouseover="hoverPic(6)" id="6" >
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 portfolio-content" style="position: relative;" >
-          <img src="img/7.jpg" class="portfolio-pic" onmouseover="hoverPic(7)" id="7">
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-      
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 portfolio-content" style="position: relative;">
-          <img src="img/8.jpg" class="portfolio-pic" onmouseover="hoverPic(8)" id="8">
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 portfolio-content" style="position: relative;">
-           <img src="img/9.jpg" class="portfolio-pic" onmouseover="hoverPic(9)" id="9">
-           <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-       </div>
-
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 portfolio-content" style="position: relative;">
-          <img src="img/10.jpg" class="portfolio-pic" onmouseover="hoverPic(10)" id="10">
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12 portfolio-content" style="position: relative;">
-          <img src="img/11.jpg" class="portfolio-pic" onmouseover="hoverPic(11)" id="11">
-          <img src="img/zoom.png" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%, -50%);" hidden="true" id="img4">
-          <div style="position: absolute; top: 0px; left: 0px;   background-color: rgba(122,201,203,0.5);width: 100%; height: 100%" hidden="true" id="div4"></div>
-        </div>
-       </div>
           <!-- end portfolio -->
 
 
@@ -221,55 +267,84 @@
    </div>
     
 
-
-  <div class="footer" id="footer" >
-      <div class="map" id="map" style="position: relative;">
+<!-- footer -->
+  <div class="footer" id="footer" style="position: relative;">
+      <div style="position: relative;">
         <img src="img/maps.png" class="picMap" >
-        <button style="position: absolute; top: 10%; left: 80%;" onclick="contactMe();" > Contact Me!</button>
+        <button type="button" class="btn btn-info" style="position: absolute; top: 10%; left: 80%;" onclick="contactMe(0);" > Contact Me!</button>
       </div>
       
       
-      <div class="container contactMe " id="contactMe" style="position: absolute; top: 0px; left: 0px;">
+      <div class="container contactMe " id="contactMe" style="position: absolute; top: 0px; left: 0px; ">
     
-        <div class="row ">
-          <div class="col-sm-4 col-sm-offset-1 ">
+          <div style="position: absolute;" class="contact1">
             <img src="img/fbk.png" class="fbk">
-            <img src="img/skp.png">
-            <h3>Email: info@agilsun.com</h3>
-            <h3>193 Xuan Hong, 4 Ward, Tan Binh District, Hochiminh City</h3>
+            <img src="img/skp.png" class="skp">
+            <h3 class="fontRegular email-address">Email: info@agilsun.com</h3>
+            <h3 class="fontRegular email-address" >193 Xuan Hong, 4 Ward, Tan Binh District, Hochiminh City</h3>
           </div>
-          <div class="col-sm-5 col-sm-offset-6 ">
-            <form>
+
+          <div style="position: absolute; " class="contact2">
+             <form>
               <input class="input" type="text" placeholder="Enter your name...">
               <input class="input" type="text" placeholder="Enter your email...">
-              <textarea class="input" rows="7" placeholder="Enter your content ..."></textarea> 
+              <textarea class="input textarea" rows="7" placeholder="Enter your content ..."></textarea> 
               <input type="button" value="Send" class="send">
-              <input type="button" value="View Maps" class="viewMap">
-           </form>
+              <input type="button" value="View Maps" class="viewMap" onclick="contactMe(1);">
+             </form>
           </div>
-        </div>
-          
+                  
       </div>
   </div>
-  
-   
 
 
-          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+<!--    end footer -->
+ 
+  <div style="background-color: #151515; " >
+    <h3 style=" text-align: center; font-size: 14px; color: #fff;margin: 0px; padding: 10px;" class="fontBold">Agilsun © 2014</h3>
+  </div>
+      
+       
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+       <script src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.js"></script>
+       <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
+       <script src="js/vendor/packery-mode.pkgd.min.js"></script>
+
+       
+
+         <script src="js/main.js"></script>
+
+       <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+        </script>
+
+        <script type="text/javascript">
+          
+         function contactMe(i){
+              var contact = document.getElementById("contactMe");
+              if(i==0){
+                  contact.classList.remove("contact-map");
+                  
+              }
+              else{
+                
+                
+                contact.classList.add("contact-map");
+              }
+          }
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
+        <!-- <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+        </script> -->
     </body>
 </html>
