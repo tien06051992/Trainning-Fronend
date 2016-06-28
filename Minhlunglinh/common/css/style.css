@@ -1,0 +1,132 @@
+body{
+    background: url("http://localhost:8080/Layout/img/background.jpg");
+}
+.header{
+    margin-top:40px;
+    height:60px;
+    background-color:#181818;
+}
+.h_menu_list ul{
+    list-style-type:none;
+}
+.h_menu_list ul li{
+    float: left;
+    padding-right:29px;
+}
+.class{
+    margin: 0;
+}
+.h_menu_list ul li a{
+    color:white;
+    font-weight:600;
+    padding:10px;
+}
+.middle_img_sec{
+    width:131px;
+}
+.h_menu_list{
+    line-height:60px;
+}
+.h_menu_list ul li a:hover{
+    background-color: #8f746c;
+    text-decoration: none;
+}
+.body{
+    height:1656px;
+    padding:0;
+}
+.background_body{
+    padding:0;
+}
+#top_banner{
+    width:100%;
+}
+.slogan{
+    position: absolute;
+    left: 382px;
+    top: 187px;
+    font-family: Trebuchet MS;
+    color: white;
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+}
+.slogan p{
+    margin:0;
+    height:50px;
+    width:100%;
+}
+.banner_img_selection{
+    height:102px;
+    position: absolute;
+    bottom: 88px;
+    left: 338px;
+}
+.banner_text{
+    font-size: 46.5px;
+}
+.banner_img_selection img{
+    border: 5px solid white;
+}
+.banner_img_selection a:hover img{
+    border: 5px solid #8f746c;
+}
+.body_item_case{
+    height:573px;
+    background-color: white;
+}
+.body_item_case_up_right{
+    height:274px;
+    background-color: #e6ddda;
+}
+.right_content{
+    padding-top: 31px;
+    padding-left: 27px;
+}
+span i{
+    color: orange;
+}
+.body_item_case_down{
+    padding-top: 45px;
+ }
+.body_bottom_banner{
+    float: left;
+    padding: 0;
+    height: 500px;
+    background-color: white;
+}
+.bottom_menu a{
+    color:black;
+    font-weight:600;
+}
+.bottom_menu li {
+    float: left;
+    padding-left: 20px;
+}
+.bottom_menu ul{
+    list-style-type: none;
+}
+.bottom_menu{
+    padding-left: 206px;
+    padding-top: 15px;
+}
+
+.bottom_menu ul li a:hover{
+    text-decoration: none;
+}
+.buy_name{
+    font-weight: 600; font-size: 17px;
+}
+.author{color: #8f746c;}
+.price{font-weight: 600;font-size: 53px;}
+.button{ padding: 12px; border: 3px solid #8f746c; color: #8f746c;}
+.rating{ padding-left: 336px;font-weight: 600;}
+.font-awesome_direct{
+    left: -13px;top: 24px;position: absolute;color: #e6ddda;
+}
+.payment_box{
+    padding-left: 475px;padding-top: 26px;height: 89px;
+}
+.question{
+    padding-top: 0px;font-weight: 600;
+}

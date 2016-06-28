@@ -1,0 +1,125 @@
+@media screen and (max-width: 1000px){
+    .header{
+        height:237px;
+    }
+    .logo{
+        text-align: center;
+        padding:0;
+    }
+    .h_menu_list ul li{
+        width:42%;
+        padding-right: 0;
+    }
+    .h_menu_list{
+        text-align: center;
+    }
+    #banner_text{
+        font-size:27.5px;
+        text-align: center;
+    }
+    .body{
+        padding:0;
+    }
+    .text{
+        font-size: 27px;
+    }
+    .slogan{
+        left: 8px;
+        top: 2px;
+        width:100%;
+    }
+    .banner_img_selection{
+        text-align: center;
+        bottom: 240px;
+        left: 3px;
+        width:100%;
+    }
+    #top_banner{
+        height:486px;
+    }
+    .middle_img_sec{
+        width:100%;
+    }
+    #mainbike_1{
+        max-width:100%;
+    }
+    .font-awesome_direct{
+        left: 234px;
+        top: -27px;
+        transform: rotate(90deg);
+    }
+    .right_content p{
+        margin:0;
+    }
+    .right_content{
+        text-align: center;
+        padding:0;
+    }
+    .buy_name{
+        font-size:15px;
+    }
+    .author{
+        font-size:11px;
+    }
+    .price{
+        padding: 0;
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+    .button{
+        top: 207px;
+    }
+    .rating{
+        padding-left: 0;
+    }
+    .body_bottom_banner{
+        padding-top: 382px;
+        height:auto;
+    }
+    .body_bottom_banner img{
+        height:220px;
+    }
+    .bottom_menu{
+        text-align: center;
+        padding: 0;
+    }
+    .bottom_menu li{
+        padding:0;
+        width:100%;
+    }
+    .footer{
+        padding: 0;
+    }
+    .payment_box{
+        padding-left: 105px;
+    }
+    .body_item_case_up_right{
+        height:auto;
+    }
+    .body_item_case_up_right img{
+        width:100%;
+    }
+    .body_item_case_up_right p{
+        width:100%;
+    }
+    .button_container{
+        padding-bottom: 15px;
+    }
+    .question{
+        padding-top:0px;
+    }
+    .class2{
+        width:100%;
+    }
+    .class3{
+        width:100%;
+        margin:0;
+    }
+    .payment_box{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        padding-top: 28px; 
+    }
+
+}
