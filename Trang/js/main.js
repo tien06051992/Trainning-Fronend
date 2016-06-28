@@ -12,3 +12,14 @@
 // 	document.getElementById(i).style.visibility = 'hidden';
 // }
 
+// external js: isotope.pkgd.js, packery-mode.pkgd.js
+$(document).ready(function() {
+
+
+$('.grid').isotope({
+  layoutMode: 'packery',
+  itemSelector: '.grid-item',
+});
+
+});
+
