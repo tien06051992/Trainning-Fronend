@@ -1,0 +1,564 @@
+
+/*---------------banner-----------------*/
+.banner {
+	width: 100%;
+	height: auto;
+}
+.banner-item img {
+	width: 100%;
+	height: auto;
+	max-height: 510px;
+}
+#slider-banner {
+	background: #f8f8f8;
+	
+}
+#slider-banner .slider-banner {
+	height: auto;
+	width: 100%;
+	max-height: 510px;
+}
+ #slider-banner .slider-banner img {
+	width: 100%;
+	height: 100%;
+}
+.sileder-button {
+	width: 40px;
+    height: 40px;
+    line-height: 36px;
+	display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 20px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.sileder-button-left {
+	position: absolute;
+
+	top:45%;
+	left:2%;
+}
+.sileder-button-right {
+	position: absolute;
+    right: 2%;
+    top: 45%;
+}
+.sileder-button:hover {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	
+}
+.sileder-button:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.beauty {
+	padding: 20px 0;
+	border:1px solid #d0d4cf;
+}
+.beauty-center {
+	border-right:none;
+	border-left:none;
+}
+.beauty-text {
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+.beauty-text a,
+.main-content a {
+	
+	text-decoration: none;
+	color: #000;
+}
+.beauty-text a h5 {
+	font-size: 14px;
+	font-weight:600;
+}
+
+#beauty-2 {
+	display: none;
+	
+}
+
+#main {
+	margin-top:50px;
+}
+.main {
+	padding-bottom: 40px;
+	border-bottom:1px solid #d0d4cf;
+}
+.main-col-1 {
+	padding-left: 0;
+	padding-right:10px;
+}
+.main-col-2 {
+	padding-left:10px;
+	padding-right:0;
+}
+
+.img img {
+	height: auto;
+	width: 100%;
+
+}
+.main-1 {
+	margin: 0;
+	padding: 0;
+
+}
+.main-content{
+	padding-top:10px;
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right: 25px;
+	border:1px solid #d0d4cf;
+
+}
+
+
+.main-content-text {
+	/*text-align: justify;*/
+	font-size: 15px;
+	font-weight: 600;
+	
+}
+
+.main-content-text p {
+	padding-top:5px;
+	padding-bottom:10px;
+}
+.btn-reading {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:15px;
+	padding-right:10px;
+	color: #676565;
+	font-size: 15px;
+	font-weight: 500;
+	background-color: #f1f1f1;
+	border:1px solid #d0d4cf;
+	
+}
+
+
+.icon-reading{
+	margin-left:15px; 
+	font-size:17px;
+
+}
+.main-content-footer-icon-1 {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.main-content-footer-icon {
+	position: relative;
+	float: right;
+	/*line-height: 35px;*/
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.-l {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.-l,
+.-number{
+
+	position: relative;
+	top: 2px;
+	font-size: 16px;
+	color: #b9b6b6;
+}
+.-number {
+	margin-left: 5px;
+}
+/*.main-content-footer-icon span {
+	margin-left: 5px;
+	font-size: 15px;s
+	position: relative;
+	top: 2px;
+	color: #b9b6b6;
+
+}*/
+/*---------------------------end main -1 */
+
+.main-2  {
+	margin-top:30px;
+}
+
+.main-2-content-text {
+	font-size: 13px;
+	padding:10px 0;
+}
+#pagination {
+	margin-top: 20px;
+}
+#pagination .pagi{
+	margin:0;
+}
+
+#pagination .pagination-a {
+	border-radius:5px; 
+	color: #000;
+	text-transform: uppercase;
+
+}
+
+
+/*--------------main left---------------*/
+
+
+.input-search  input {
+	border:none;
+	font-size: 15px;
+	border:1px solid #d0d4cf;
+	
+}
+.btn-search {
+	border-radius: 0;
+
+}
+.btn-search:hover {
+	border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+
+
+
+#popular {
+	margin-top: 20px;
+	border:1px solid #d0d4cf;
+	
+	background-color: #fff;
+	border-bottom: none;
+}
+.popular-posts {
+	padding: 25px 0;
+	border-bottom:1px solid #d0d4cf;
+}
+.popular-posts-1 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.popular-posts-title h3 {
+	margin: 0;
+	font-weight: 500;
+}
+.popular-posts-main-img {
+	padding-right: 15px;
+	
+}
+.popular-posts-main-img img {
+
+	width: 100%;
+	height: auto;
+}
+.popular-posts-main-text {
+  padding-left: 20px;
+}
+.popular-posts-main-text a{
+ 	text-decoration: none;
+ 	color: #000;
+} 
+.popular-posts-main-text a h5 {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+#popular .popular-posts-main-text-2 h5 {
+	margin-top: 16px;
+	font-size: 13px;
+}
+.popular-posts-main-text a:hover {
+	color: #82af7c;
+}
+.popular-posts-main-img a img:hover {
+	border:  2px solid #82af7c;
+}
+#facebook {
+	margin-top: 30px;
+}
+#facebook .facebook {
+	 
+	width: 100%;
+
+}
+
+#follow {
+	margin-top: 30px;
+	
+}
+.follow {
+	border:1px solid #d0d4cf;
+	background-color: #fff;
+	height: 80px;
+}
+.follow-right {
+	float: right;
+}
+#follow .follow-icon li a{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#follow .follow-text {
+	font-size: 18px;
+	color: #82af7c;
+	font-weight: 600;
+}
+.follow-1 {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+#follow .nav li a:hover {
+   background: none;
+}
+#follow .follow-text:hover {
+	font-size: 19px;
+
+}
+#follow .follow-icon  li a img:hover {
+	width: 115%;
+}
+
+#browser {
+	margin-top:30px;
+}
+.ntn-browser {
+	float: right;
+}
+ #browser .main-content{
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-right: 20px;
+}
+.ads {
+	margin-top: 30px;
+}
+.ads a img {
+	width: 100%;
+	height: auto;
+}
+#main-slider  {
+	margin-top: 20px;
+}
+.main-slider-title {
+	background: url('../img/line.png') no-repeat bottom   transparent;
+	text-align:center;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.main-slider-img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.main-slider-button {
+	padding: 20px 40px;
+}
+#main-slider .sileder-button {
+	width: 30px;
+    height: 30px;
+    line-height: 23px;
+	display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    font-size: 16px;
+    color: #dedede;
+    background: none;
+    border: 2px solid #dedede;
+    border-radius: 50%;
+}
+.sileder-button:hover {
+	background: #82af7c!important;
+}
+.sileder-button:focus {
+	 outline: none;
+}
+#main-slider-img .slick-prev,
+#main-slider-img .slick-next{
+	display: none!important;
+}
+
+
+.main-slider-img-item {
+	padding: 0 5px;
+
+}
+.main-slider-img-item img{
+	width: 100%;
+	max-height: 174px;
+	height: auto;
+}
+.main-slider-img-text {
+	text-decoration: none;
+	background: #fff;
+	padding: 10px 10px;
+	font-size: 15px;
+	
+
+}
+
+
+
+
+.main-slider-img-text a{
+	text-decoration: none;
+	color: #000;
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+	.sileder-button {
+		
+	    border: 2px solid #fff;
+	}
+	.beauty-text a h5 {
+		font-size: 14px;
+		
+	}
+}
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.sileder-button {
+		width: 30px;
+	    height: 30px;
+	    line-height:27px;
+	    font-size: 17px;
+	    border: 2px solid #fff;
+	}
+	.beauty {
+		padding: 10px 0;
+		
+	}
+	.beauty-text a h5 {
+		font-size: 14px;
+		
+	}
+	.main-col-1 {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.main-col-2 {
+		padding-left:0;
+		padding-right:0;
+	}
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	
+	/*banner---------------------------------*/
+	.sileder-button {
+		width: 25px;
+	    height: 25px;
+	    line-height: 22px;
+	    font-size: 17px;
+	    border: 2px solid #fff;
+	}
+	.beauty {
+		padding: 10px 0;
+		
+	}
+	.beauty-text {
+	padding-right: 10px;
+	padding-left: 10px;
+	}
+	.beauty-text a h5 {
+		font-size: 14px;
+		
+	}
+	.main-slider-button {
+		display: none;
+	}
+	.main-col-1 {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.main-col-2 {
+		padding-left:0;
+		padding-right:0;
+	}
+
+
+ }
+ 
+ /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+	
+	.sileder-button {
+		width: 25px;
+	    height: 25px;
+	    line-height: 22px;
+	    font-size: 17px;
+	    border: 2px solid #fff;
+	}
+	#beauty-1 {
+		display: none;
+	}
+	#beauty-2 {
+		display: inline;
+	}
+	.beauty-center {
+		border-top:none;
+		border-bottom:none;
+		border-left:1px solid #d0d4cf;
+		border-right:1px solid #d0d4cf;
+	}
+
+	.beauty {
+		padding: 5px 0;
+		
+	}
+	.beauty-text {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.beauty-text a h5 {
+		font-size: 13px;
+		
+	}
+	
+	.main-col-1 {
+		padding-left: 0;
+		padding-right:0;
+	}
+	.main-col-2 {
+		padding-left:0;
+		padding-right:0;
+	}
+	.
+	.main-slider-button {
+		display: none;
+	}
+
+	#banner .sileder-button {
+		display: none!important;
+	}
+}

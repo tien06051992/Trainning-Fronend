@@ -1,0 +1,870 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"ppa",
+				"padding-top"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"spa",
+				"span	Tag"
+			],
+			[
+				"if",
+				"iframe	Tag"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"magn",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"text-deco",
+				"text-decoration-color"
+			],
+			[
+				"text-decoration",
+				"text-decoration-line"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"D",
+				"display"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"clas",
+				"class	Attr"
+			],
+			[
+				"bs3-nav",
+				"bs3-navbar:responsive	bs3-navbar-responsive"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"bs3-nabart",
+				"bs3-navbar:fixed-top	bs3-navbar-fixed-top"
+			],
+			[
+				"bs3-n",
+				"bs3-navbar:text	bs3-navbar-text"
+			],
+			[
+				"bs3-navb",
+				"bs3-navbar:basic	bs3-navbar-basic"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"ul",
+				"ul	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bs3-na",
+				"bs3-navbar:responsive	bs3-navbar-responsive"
+			],
+			[
+				"lin",
+				"livereload_plugin	Create new LiveReload plugin"
+			],
+			[
+				"file",
+				"files"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bs3-input",
+				"bs3-input:text	bs3-input-text"
+			],
+			[
+				"bs3-i",
+				"bs3-input:url	bs3-input-url"
+			],
+			[
+				"but",
+				"bs3-button	bs3-button"
+			],
+			[
+				"tex",
+				"textarea	Tag"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"tetx",
+				"text-align"
+			],
+			[
+				"j",
+				"justify"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"bs3-te",
+				"bs3-textarea:h	bs3-textarea-h"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"lnk",
+				"link	Tag"
+			],
+			[
+				"La",
+				"label"
+			],
+			[
+				"bs3-inp",
+				"bs3-input:text	bs3-input-text"
+			],
+			[
+				"bs3-b",
+				"bs3-button	bs3-button"
+			],
+			[
+				"bu",
+				"bs3-button	bs3-button"
+			],
+			[
+				"on",
+				"onload"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"oc",
+				"onclick	Attr"
+			],
+			[
+				"ty",
+				"type	Attr"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"bs3-t",
+				"bs3-tabs	bs3-tabs"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"p",
+				"padding-bottom"
+			],
+			[
+				"mrg",
+				"margin"
+			],
+			[
+				"mae",
+				"margin-left"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"ve",
+				"video	Tag"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"font-si",
+				"font-size"
+			],
+			[
+				"mag",
+				"margin-right"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"magi",
+				"margin-top"
+			],
+			[
+				"bs3-c",
+				"bs3-carousel	bs3-carousel"
+			],
+			[
+				"foat",
+				"float"
+			],
+			[
+				"link",
+				"link	Tag"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"na",
+				"nav	Tag"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"scroll",
+				"lastScrollTop"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"doc",
+				"documentElem"
+			],
+			[
+				"bs3-",
+				"bs3-form	bs3-form"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"siz",
+				"resize"
+			],
+			[
+				"for",
+				"form	Attr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fnt-",
+				"font-size"
+			],
+			[
+				"bs3-nabar",
+				"bs3-navbar:responsive	bs3-navbar-responsive"
+			],
+			[
+				"f",
+				"form	Tag"
+			],
+			[
+				"ca",
+				"class	Attr"
+			],
+			[
+				"BA",
+				"background-color"
+			],
+			[
+				"id",
+				"id	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "LiveReload: Enable",
+		"selected_items":
+		[
+			[
+				"LiveReload: Enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Repository"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: n",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/web/pro1/index.html",
+		"/C/web/pro1/album.html",
+		"/C/web/pro1/css/album.css",
+		"/C/web/pro1/css/home.css",
+		"/C/web/pro1/footer.html",
+		"/C/web/pro1/header.html",
+		"/C/web/pro1/js/main.js",
+		"/C/web/pro1/css/main.css",
+		"/C/web/pro1/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+		"/C/web/pro1/js/vendor/npm.js",
+		"/C/web/pro1/js/vendor/bootstrap.min.js",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/home3.html",
+		"/C/Users/nhutt/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/home.html",
+		"/C/Users/nhutt/Desktop/html.html",
+		"/C/Users/nhutt/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/nhutt/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/nhutt/Desktop/ThucTap/baby-picture/css/main.css",
+		"/C/Users/nhutt/Desktop/ThucTap/baby-picture/js/main.js",
+		"/C/Users/nhutt/Desktop/ThucTap/baby-picture/index.html",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/css/main.css",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/css/style.css",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/test.html",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/home2.html",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/home1.html",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/hme2.html",
+		"/C/Users/nhutt/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/nhutt/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/web/eElectronics - Ecommerce HTML Template/style.css",
+		"/D/web/eElectronics - Ecommerce HTML Template/login.html",
+		"/C/Users/nhutt/Desktop/ThucTap/pro/image/container.png",
+		"/D/web/layout/about.html",
+		"/C/Users/nhutt/Desktop/DeTai/Ranking.html",
+		"/C/Users/nhutt/Desktop/DeTai/vocaQuestion.html",
+		"/C/Users/nhutt/Desktop/DeTai/vocaQuestion1.html",
+		"/C/Users/nhutt/Desktop/DeTai/listeningQuestion.html",
+		"/C/Users/nhutt/Desktop/DeTai/listening.html",
+		"/C/Users/nhutt/Downloads/bootstrap-fileinput-master/examples/index.html",
+		"/C/Users/nhutt/Desktop/DeTai/readQuestion.html",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/testFormHorizontal.html",
+		"/C/Users/nhutt/Desktop/DeTai/gramer.html",
+		"/C/Users/nhutt/Desktop/DeTai/index.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/fileinput.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/fileinput.min.css",
+		"/C/Users/nhutt/Desktop/DeTai/InTest.html",
+		"/C/Users/nhutt/Desktop/DeTai/Reading.html",
+		"/C/Users/nhutt/Desktop/DeTai/info1.html",
+		"/C/Users/nhutt/Desktop/DeTai/Admin.html",
+		"/C/Users/nhutt/Desktop/DeTai/Client.html",
+		"/C/Users/nhutt/Desktop/DeTai/login.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/style.css",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/formOption.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/test.css",
+		"/C/Users/nhutt/Desktop/DeTai/vocablary.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/reading.css",
+		"/C/Users/nhutt/Desktop/DeTai/gotest1.html",
+		"/C/Users/nhutt/Desktop/DeTai/animation.html",
+		"/C/Users/nhutt/Desktop/DeTai/grammar.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/grammar.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/listening.css",
+		"/C/Users/nhutt/Desktop/style.css",
+		"/C/Users/nhutt/Desktop/demo.html",
+		"/C/Users/nhutt/Desktop/DeTai/cnpm.html",
+		"/C/Users/nhutt/Desktop/bootstrap/testvdeo.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/grammaer.html",
+		"/C/Users/nhutt/Desktop/DeTai/image/5-voca.jpg",
+		"/C/Users/nhutt/Desktop/DeTai/footers.html",
+		"/C/Users/nhutt/Downloads/6_12_2015/eElectronics - Ecommerce HTML Template/login.html",
+		"/C/Users/nhutt/Desktop/DeTai/footer.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/animation.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/login.css",
+		"/C/Users/nhutt/Downloads/AjaxSuggestion/AjaxSuggestion/ajaxsuggest.js",
+		"/C/Users/nhutt/Desktop/bootstrap/testTable.html",
+		"/C/Users/nhutt/Desktop/DeTai/els.html",
+		"/C/Users/nhutt/Downloads/6_12_2015/eElectronics - Ecommerce HTML Template/style.css",
+		"/C/Users/nhutt/Desktop/DeTai/test.html",
+		"/C/Program Files/Sublime Text 3/Packages/Text.sublime-package",
+		"/C/Users/nhutt/Desktop/DeTai/Test2.html",
+		"/C/Users/nhutt/Desktop/DeTai/Login.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/GoTest.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/TestEnglish.html",
+		"/C/Users/nhutt/Desktop/baitap/btw2016/web/baigiai/Jsp/tracnghiem/menu.html",
+		"/C/Users/nhutt/Desktop/SinhVien/css/app.css",
+		"/C/Users/nhutt/Desktop/SinhVien/index.html",
+		"/C/Users/nhutt/Desktop/DeTai/info.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/info.css",
+		"/C/Users/nhutt/Desktop/DeTai/testDeMO.html",
+		"/C/Users/nhutt/Desktop/tetst.html",
+		"/C/Users/nhutt/Desktop/DeTai/index1.html",
+		"/C/Users/nhutt/Desktop/awesome-bootstrap-checkbox-master/bower_components/Font-Awesome/css/font-awesome.css",
+		"/C/Users/nhutt/Desktop/awesome-bootstrap-checkbox-master/demo/index.html",
+		"/C/Users/nhutt/Desktop/awesome-bootstrap-checkbox-master/demo/build.css",
+		"/C/Users/nhutt/Desktop/DeTai/js/readmore.js",
+		"/C/Users/nhutt/Desktop/DeTai/css/animate.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/bootstrap-theme.css.map",
+		"/C/Users/nhutt/Desktop/DeTai/css/bootstrap.min.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/bootstrap.css",
+		"/C/Users/nhutt/Desktop/DeTai/css/bootstrap.min.css.map",
+		"/C/Users/nhutt/Desktop/testwow/index.html",
+		"/C/Users/nhutt/Desktop/testwow/index.html.txt",
+		"/C/Users/nhutt/Desktop/DeTai/testAnimate.html",
+		"/C/Users/nhutt/Desktop/DeTai/css/animate.min.css",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/info.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/info.css",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/formUsed.html",
+		"/C/Users/nhutt/Desktop/bootstrap/dropdown.html",
+		"/C/Users/nhutt/Desktop/DeTai/js/login.js",
+		"/C/Users/nhutt/Desktop/bootstrap/nabar/navbar.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/app.css",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/gettopcss.css",
+		"/C/Users/nhutt/Desktop/bootstrap/bootstraptest.html",
+		"/C/Users/nhutt/Desktop/bootstrap-3.3.6-dist/css/bootstrap.min.css.map",
+		"/C/Users/nhutt/Desktop/bootstrap-3.3.6-dist/css/bootstrap.min.css",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/testFormBasic.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/gettop.html",
+		"/C/Users/nhutt/Desktop/bootstrap/nhacmp3 (1).html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/filenaydetestcode.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/test.css",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/carsooo.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/top.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/countdown.html",
+		"/C/Users/nhutt/Desktop/bootstrap/DeTai/formInfo.html",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/formInLine.html",
+		"/C/Users/nhutt/Downloads/btw2016/web/baigiai/Html-Css-Js/dongho/dongho.js",
+		"/C/Users/nhutt/Downloads/btw2016/web/baigiai/Html-Css-Js/dongho/dongho.html",
+		"/C/Users/nhutt/Desktop/bootstrap/test.html",
+		"/C/Users/nhutt/Desktop/bootstrap/carsooo.html",
+		"/C/Users/nhutt/Desktop/bootstrap/testForm/formInfo.html"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"important",
+			"inline",
+			" ;",
+			"250px",
+			"=\"\"> ",
+			"href",
+			"pic1",
+			"ans",
+			"anwser",
+			"file",
+			"proident",
+			"clock",
+			"col-sm-1",
+			"		\n",
+			"bor",
+			"placeholder",
+			"form-signin",
+			"form-si",
+			"cầu",
+			"sssssssss",
+			"sty",
+			");	",
+			"cubic-bezier",
+			"cu",
+			"cubic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,88 @@
+.intro-us {
+	padding-bottom: 50px;
+}
+.intro-us-logo {
+	margin-bottom: 30px;
+}
+.about-us a {
+	color: #82af7c;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.about-us-logo {
+	text-align:center;
+	padding-top: 20px;
+}
+.about-us-logo img {
+	width: 100%;
+	max-width: 180px;
+	height: auto;
+}
+.header-us h2,
+.header-us h4 {
+	font-weight: 600;
+}
+.header-us h2 {
+	margin-top: 0;
+
+}
+.title-us h4 {
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.intro-comment {
+	margin-bottom: 50px;
+	background: #fff;
+}
+/* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+
+}
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+ 	.header-us h2 {
+		font-size: 17px;
+	}
+	.header-us h4,
+	.title-us h4{
+		font-size: 16px;
+	}
+	.title-us,
+	.content-us {
+		text-align:justify;
+	}
+
+ }
+ 
+ /* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+	.header-us h2 {
+		font-size: 15px;
+	}
+	.header-us h4,
+	.title-us h4{
+		font-size: 16px;
+	}
+	.title-us,
+	.content-us {
+		text-align:justify;
+	}
+}
