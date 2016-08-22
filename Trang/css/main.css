@@ -57,7 +57,7 @@ banner{
 
 .btn-nav{
 	background-color: rgba(194,195,183,0);
-	border: none;
+	border: 0px;
 	color: black;
     padding-right: 25px;
     padding-left: 25px;

@@ -1,3 +1,10 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+
 .banner{
 	background: url('../img/home1.jpg') no-repeat center;
 	background-size: cover;
@@ -28,7 +35,7 @@
 	border-radius: 0px;
 	margin: 0px;
 	width: 100%;
-	height: 100px!important;
+	/*max-height: 100px!important;*/
 	
 }
 
@@ -36,13 +43,9 @@
 	margin: 0px;
 }
 
-
-.nav-colap{
-	height: 100px!important; 
-	padding-right: 220px; 
-	padding-left: 170px;
+.navbar-nav > li > a {
+	padding: 0;
 }
-
 .btn-nav{
 	background-color: rgba(194,195,183,0);
 	border: none;
@@ -92,7 +95,7 @@
 }
 
 .paragraph{
-	padding-right: 210px;
+	padding-right: 60px;
 }
 
 .paragraph1{
@@ -254,22 +257,31 @@
 	margin-left: 0px;
 }
 
+.grid {
+  margin: 0 auto; 
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
 
+.grid-item{
+	float: left;
+	width: 224px;
+}
 
 .portfolio-pic{
-	width: 220px;
+	width: 224px;
 	height: auto;
-	text-align: center;
 }
 .portfolio-pic2{
-	width: 440px;
+	width: 448px;
 	height: auto;
-	text-align: center;
 
 }
 .item{
@@ -277,25 +289,27 @@
 }
 .item-hover{
 	position: absolute;
-	display: none;
-	top: 0px;
+	width: 100%;
+	height: 0px;
+	bottom: 0px;
 	left: 0px;
+	background-color: rgba(123,202,203,0.3);
+	-webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s ;
 }
 .item:hover .item-hover{
-	background-color: rgba(123,202,203,0.8);
-	width: 100%;
 	height: 100%;
-	content: '';
-	display: flex;
-	
 }
 
-.item:hover .item-hover img{
+.item-hover img{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	top: 45%;
+	left: 40%;
 }
+
+
 
 
 .viewmore{
@@ -329,6 +343,11 @@
 	padding-bottom: 20px;
 }
 
+.contact{
+	top: 4%;
+	left: 88%;
+}
+
 .contact1{
 	 top: 45%; 
 	 left: 10%;
@@ -343,12 +362,10 @@
 .contact-map {
 	display: none;
 }
-.fbk {
-	padding-right: 50px;
-}
-
-.skp{
-	padding-left: 0px;
+.contact1 i{
+	color: #2792ff;
+	margin-right: 30px;
+	font-size: 50px;
 }
 
 .email-address{
@@ -383,25 +400,49 @@
 	margin-top: 8px;
 	margin-bottom: 8px;
 	margin-left: 10px;  
+	-webkit-transition: background-color .5s ease-out;
+	-moz-transition: background-color .5s ease-out;
+	-o-transition: background-color .5s ease-out;
+	transition: background-color .5s ease-out;
 }
 
+.viewMap:hover{
+	background-color: blue;
+	color: white;
+}
 
+.map{
+		width: 100%;
+		height: 600px;
+		border: 0px;
+	}
 
 
 
 
 /* ==========================================================================
-   Responsive CSS Portrait Mobile
+   Responsive CSS 
    ========================================================================== */
 
 @media only screen and (min-width: 100px) and (max-width: 479px){
 	.banner{
 		min-height: 500px;
 	}
-	.nav-colap{
-		padding-right: 10px;
-		padding-left: 20px;
-		background-color: rgba(194,195,183,1);
+
+	.navbar-header{
+		height: 50px;
+	}
+	.btn-active{
+		height: 50px;
+		font-size: 23px;
+	}
+	.btn-home{
+		height: 50px;
+		font-size: 15px;
+	}
+	.btn-nav{
+		height: 50px;
+		font-size: 15px;
 	}
 	.paragraph{
 		padding-right: 30px;
@@ -411,16 +452,16 @@
 		margin: 20px;
 	}
 	.portfolio-pic{
-		width: 360px;
+		height: 340px;
 	}
 	.portfolio-pic2{
-		width: 360px;
+		height: 340px;
 	}
 	.item-hover{
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		background-color: rgba(123,202,203,0.6);
+		background-color: rgba(123,202,203,0.3);
 		width: 100%;
 		height: 100%;
 		display: block;
@@ -499,69 +540,87 @@
 	}
 
 	.contact1{
-		 top: 25%; 
+		 top: 20%; 
 		 left: 10%;
-		 width: 100px;
+		 width: 250px;
+	}
+
+	.contact1 i{
+		color: #2792ff;
+		margin-right: 20px;
+		font-size: 30px;
 	}
 
 	.contact2{
-		top: 5%; 
-		left: 50%;
-		width: 200px;
+		top: 40%; 
+		left: 10%;
+		width: 100%;
 	}
 
-	.fbk {
-		padding-right: 20px;
-		width: 35px;
-		height: auto;
-	}
-
-	.skp{
-		width: 30px;
-		height: auto;
-	}
 
 	.email-address{
 		font-size: 12px; 
 		color: #fff;
 	}
 
-	.picMap{
-		width: 100%;
-		height: auto;
+	
+
+	.contact{
+		top: 10%;
+		left: 70%;
 	}
 
 	.input{
-		width: 150px;
+		width: 250px;
 		height: 25px;
 
 	}
 
 	.textarea{
-		height: 50px;
+		height: 80px;
 	}
 
 	.send{
-		width: 50px;	
+		width: 250px;	
 		height: 40px;	
+
 	}
 
 	.viewMap{
-		width: 80px;
+		width: 250px;
 		height: 40px;
+		margin-left: 0px;
+	}
+
+	.map{
+		width: 100%;
+		height: 750px;
+		border: 0px;
 	}
 
 
 }
-@media only screen and (min-width: 480px) and (max-width: 767px){
+@media only screen and (min-width: 480px) and (max-width: 768px){
 	.banner{
 		min-height: 350px;
 	}
-	.nav-colap{
-		padding-right: 30px;
-		padding-left: 30px;
-		background-color: rgba(194,195,183,1);
+	.navbar-header{
+		height: 60px;
 	}
+	.btn-active{
+		height: 60px;
+		font-size: 27px;
+	}
+	.btn-home{
+		height: 60px;
+		font-size: 17px;
+	}
+	.btn-nav{
+		height: 60px;
+		font-size: 17px;
+	}
+
+
 	.paragraph{
 		padding-right: 30px;
 		padding-left: 30px;
@@ -579,7 +638,7 @@
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		background-color: rgba(123,202,203,0.6);
+		background-color: rgba(123,202,203,0.3);
 		width: 100%;
 		height: 100%;
 		display: block;
@@ -656,32 +715,30 @@
 		left: 26%;
 	}
 	
-	.picMap{
-		min-height: 300px;
+
+	.contact{
+		top: 4%;
+		left: 80%;
 	}
 
 	.contact1{
 		 top: 35%; 
 		 left: 10%;
-		 width: 150px;
+		 width: 200px;
+	}
+
+	.contact1 i{
+		color: #2792ff;
+		margin-right: 20px;
+		font-size: 40px;
 	}
 
 	.contact2{
 		top: 10%; 
 		left: 50%;
-		width: 220px;
+		width: 300px;
 	}
 
-	.fbk {
-		padding-right: 20px;
-		width: 35px;
-		height: auto;
-	}
-
-	.skp{
-		width: 30px;
-		height: auto;
-	}
 
 	.email-address{
 		font-size: 14px; 
@@ -696,7 +753,7 @@
 	.input{
 		margin: 8px 0px;
 		padding: 10px 6px;
-		width: 200px;
+		width: 210px;
 		height: 35px;
 	}
 
@@ -705,13 +762,20 @@
 	}
 
 	.send{
-		width: 90px;
+		width: 210px;
 
 		
 	}
 
 	.viewMap{
-		width: 90px;
+		width: 210px;
+		margin-left: 0px;
+	}
+
+	.map{
+		width: 100%;
+		height: 480px;
+		border: 0px;
 	}
 
 }
@@ -740,16 +804,16 @@
 		margin: 20px;
 	}
 	.portfolio-pic{
-		width: 170px;
+		height: 320px;
 	}
 	.portfolio-pic2{
-		width: 340px;
+		height: 320px;
 	}
 	.item-hover{
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		background-color: rgba(123,202,203,0.6);
+		background-color: rgba(123,202,203,0.3);
 		width: 100%;
 		height: 100%;
 		display: block;
@@ -826,20 +890,27 @@
 		left: 25%;
 	}
 
+	.contact{
+		top: 4%;
+		left: 82%;
+	}
+
 	.contact1{
 		 top: 45%; 
 		 left: 10%;
-		 width: 350px;
+		 width: 250px;
+	}
+
+	.contact1 i{
+		color: #2792ff;
+		margin-right: 30px;
+		font-size: 50px;
 	}
 
 	.contact2{
-		top: 25%; 
+		top: 15%; 
 		left: 50%;
-		width: 520px;
-	}
-
-	.fbk {
-		padding-right: 50px;
+		width: 350px;
 	}
 
 
@@ -851,11 +922,15 @@
 	.input{
 		margin: 8px 0px;
 		padding: 10px 6px;
-		width: 500px;
+		width: 300px;
+	}
+
+	.textarea{
+		height: 100px;
 	}
 
 	.send{
-		width: 240px;
+		width: 300px;
 		padding: 10px 6px;
 		margin-top: 8px;
 		margin-bottom: 8px;
@@ -866,11 +941,17 @@
 
 	.viewMap{
 		background-color: #54bec4;
-		width: 240px;
+		width: 300px;
 		padding: 10px 6px;
 		margin-top: 8px;
 		margin-bottom: 8px;
-		margin-left: 10px;  
+		margin-left: 0px;  
+	}
+
+	.map{
+		width: 100%;
+		height: 500px;
+		border: 0px;
 	}
 }
 @media only screen and (min-width: 960px) and (max-width: 1240px){
@@ -890,16 +971,16 @@
 		margin: 20px;
 	}
 	.portfolio-pic{
-		width: 170px;
+		height: 300px;
 	}
 	.portfolio-pic2{
-		width: 340px;
+		height: 300px;
 	}
 	.item-hover{
 		position: absolute;
 		top: 0px;
 		left: 0px;
-		background-color: rgba(123,202,203,0.6);
+		background-color: rgba(123,202,203,0.3);
 		width: 100%;
 		height: 100%;
 		display: block;
@@ -936,22 +1017,30 @@
 		top: 50%;
 		left: 18%;
 	}
-		
+	
+	.contact{
+		top: 4%;
+		left: 82%;
+	}
+
 	.contact1{
 		 top: 45%; 
 		 left: 10%;
-		 width: 200px;
+		 width: 250px;
 	}
 
 	.contact2{
 		top: 14%; 
-		left: 40%;
-		width: 300px;
+		left: 50%;
+		width: 350px;
 	}
 
-	.fbk {
-		padding-right: 30px;
+	.contact1 i{
+		color: #2792ff;
+		margin-right: 30px;
+		font-size: 50px;
 	}
+
 
 	.input{
 		width: 300px;
@@ -963,6 +1052,12 @@
 
 	.viewMap{
 		width: 135px; 
+	}
+
+	.map{
+		width: 100%;
+		height: 500px;
+		border: 0px;
 	}
 
 }	
